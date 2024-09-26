@@ -1,0 +1,33 @@
+[project]
+name = "HackatonEnv"
+version = "1.0"
+description = "Base environment for the hackaton. Includes Azure accelerators and most common libraries for GenAI projects."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "azure-ai-documentintelligence>=1.0.0b4",
+    "azure-cosmos>=4.7.0",
+    "azure-identity>=1.18.0",
+    "azure-storage-blob>=12.23.0",
+    "jupyter>=1.1.1",
+    "langchain>=0.0.27",
+    "matplotlib>=3.9.2",
+    "openai>=1.48.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+    "psutil>=6.0.0",
+    "python-dotenv>=1.0.1",
+    "pytz>=2024.2",
+    "requests>=2.32.3",
+    "seaborn>=0.13.2",
+    "streamlit>=1.38.0",
+    "streamlit-pdf-viewer>=0.0.18",
+    "tiktoken>=0.7.0",
+    "langchain-community>=0.3.1",
+    "langchain-openai>=0.2.0",
+    "numpy>=1.26.4",
+]
+
+[tool.uv]
+native-tls = true
